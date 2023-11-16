@@ -1,0 +1,55 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+			}
+		},
+		{
+			"path": "pages/personalInfo/index",
+			"style": {
+			}
+		},{
+			"path": "pages/login/login",
+			"style": {
+			}
+		},{
+			"path": "pages/addWish/index",
+			"style": {
+			}
+		},{
+			"path": "pages/editInfo/index",
+			"style": {
+			}
+		}
+	],
+	 "tabBar": {
+	    "color": "#ffffff",
+	    "selectedColor": "#ffbb00",
+	    "borderStyle": "black",
+	    "backgroundColor": "#332f2f",
+		"position":"bottom",
+	    "list": [
+	      {
+	        "pagePath": "pages/index/index",
+	        "iconPath": "/static/home2.png",
+	        "selectedIconPath": "/static/home.png",
+	        "text": "首页"
+	      },
+	      {
+	        "pagePath": "pages/login/login",
+			 "iconPath": "/static/wd1.png",
+	        "selectedIconPath": "/static/wd.png",
+	        "text": "个人中心"
+	      }
+	    ]
+	  },
+	"globalStyle": {
+		"navigationBarTitleText": "许愿池",
+		"navigationBarTextStyle": "white",
+		"navigationBarBackgroundColor": "#332f2f",
+		"backgroundTextStyle": "light",
+		"disableScroll": true
+		// "backgroundColor": "#fff"
+	}
+}

@@ -1,0 +1,1 @@
+<view class="starry-bg-box" id="starry-bg-box"><block wx:for="{{arr}}" wx:for-item="item" wx:for-index="index" wx:key="index"><text style="{{'left:'+(item.left)+';'+('top:'+(item.top)+';')+('transform:'+(item.transform)+';')+('animation-delay:'+(item.animationDelay)+';')+('opacity:'+(.7)+';')}}"></text></block></view>

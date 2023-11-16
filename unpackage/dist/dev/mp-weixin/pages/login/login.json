@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "add-info-btn": "/pages/components/addInfoBtn/index",
+    "starry-sky-bg": "/pages/components/starrySkyBg/index",
+    "card-cmp": "/pages/components/cardCmp/index"
+  }
+}

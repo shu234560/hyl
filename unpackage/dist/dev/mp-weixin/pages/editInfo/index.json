@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "starry-sky-bg": "/pages/components/starrySkyBg/index"
+  }
+}

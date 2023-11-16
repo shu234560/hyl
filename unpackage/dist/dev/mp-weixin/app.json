@@ -1,0 +1,40 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/personalInfo/index",
+        "pages/login/login",
+        "pages/addWish/index",
+        "pages/editInfo/index"
+    ],
+    "subPackages": [],
+    "window": {
+        "navigationBarTitleText": "许愿池",
+        "navigationBarTextStyle": "white",
+        "navigationBarBackgroundColor": "#332f2f",
+        "backgroundTextStyle": "light",
+        "disableScroll": true
+    },
+    "tabBar": {
+        "color": "#ffffff",
+        "selectedColor": "#ffbb00",
+        "borderStyle": "black",
+        "backgroundColor": "#332f2f",
+        "position": "bottom",
+        "list": [
+            {
+                "pagePath": "pages/index/index",
+                "iconPath": "/static/home2.png",
+                "selectedIconPath": "/static/home.png",
+                "text": "首页"
+            },
+            {
+                "pagePath": "pages/login/login",
+                "iconPath": "/static/wd1.png",
+                "selectedIconPath": "/static/wd.png",
+                "text": "个人中心"
+            }
+        ]
+    },
+    "usingComponents": {},
+    "sitemapLocation": "sitemap.json"
+}

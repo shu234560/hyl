@@ -1,0 +1,1 @@
+<view data-event-opts="{{[['tap',[['goAddWishView',['$event']]]]]}}" class="addInfo" bindtap="__e"><view>+</view>添加<view>祝福</view></view>

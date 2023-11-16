@@ -1,0 +1,1 @@
+.addInfo{position:absolute;bottom:48%;right:10rpx;color:#fff;border:#007aff;width:80rpx;height:80rpx;box-shadow:0 0rpx 10rpx #fff;border-radius:50%;line-height:70rpx;background:pink;font-size:70rpx;text-align:center;z-index:99;opacity:.8}
